@@ -1,0 +1,13 @@
+fastapi[all]
+uvicorn
+langgraph
+langchain
+langchain-groq
+sqlmodel
+asyncpg  # Use for PostgreSQL (async driver)
+aiosqlite # For AsyncSqliteSaver (local dev only)
+langgraph-checkpoint-sqlite # Crucial dependency fix for checkpointer
+pydantic-settings
+pydantic
+python-dotenv
+uuid
